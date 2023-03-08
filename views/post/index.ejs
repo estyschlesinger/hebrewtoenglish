@@ -1,0 +1,36 @@
+<% layout('layouts/boilerplate')%>
+
+<a href="/posts/new">New Post</a>
+<h1>All Posts</h1>
+
+ 
+    
+          <div class="container-fluid">
+              <div class="row">
+                <% for (let post of posts) { %>
+                  <div class="col-md-3 col-sm-6">
+                     <a class="text-decoration-none" href="/posts/<%= post._id  %>">
+                      <div class="card mb-3">
+                          
+                          <img class="card-img" src="https://assets.breatheco.de/apis/img/images.php?blob&tags=bobdylan" alt="">
+                          <div class="card-body">
+                              <h5 class="card-title"><%=post.likes%> likes</h5>
+                              <p class="card-text" dir="rtl"><%=post.caption.substring(0,20)%>...</p>
+                          </div>
+                           <div class="row post-header px-3 pb-3">
+                              <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                              <div class="col-9 float-left text-left">Comment...</div>
+                              <div class="col-1 float-right text-right mr-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+                          </div>       
+                      </div>
+                    </a>
+              
+                  </div>
+                  <% } %>
+              </div>    
+          </div>
+
+
+ 
+    
+
