@@ -11,14 +11,17 @@
                   <div class="col-md-3 col-sm-6">
                      <a class="text-decoration-none" href="/posts/<%= post._id  %>">
                       <div class="card mb-3">
-                          
-                          <img class="card-img" src="https://assets.breatheco.de/apis/img/images.php?blob&tags=bobdylan" alt="">
+                          <% if(post.images.length) {%>
+                          <img class="card-img" src="<%=post.images[0].url%>">
+                         <%} else{ %>
+                          <img src="https://res.cloudinary.com/deyqmo0j9/image/upload/v1679321924/hevanti/checkCaption_mz9aeo.png">
+                          <%}%>
                           <div class="card-body">
                               <h5 class="card-title"><%=post.likes%> likes</h5>
-                              <p class="card-text" dir="rtl"><%=post.caption.substring(0,20)%>...</p>
+                              <p class="card-text" dir="rtl"><%=post.caption%>...</p>
                           </div>
                            <div class="row post-header px-3 pb-3">
-                              <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
+                              <!-- <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div> -->
                               <div class="col-9 float-left text-left">Comment...</div>
                               <div class="col-1 float-right text-right mr-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
                           </div>       

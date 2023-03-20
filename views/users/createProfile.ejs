@@ -1,0 +1,81 @@
+<% layout('layouts/boilerplate') %>
+
+<h1>Create your profile</h1>
+
+<form action="/users/new" method="POST" class="" enctype="multipart/form-data">
+
+
+    
+
+<div class="container">
+    <div class="main-body">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex flex-column align-items-center text-center">
+                            <!-- <img src="" alt="Admin" class="rounded-circle p-1 bg-primary" width="110" height="110"> -->
+                            <div class="mb-3">
+                                <label for="profilePic">Upload Profile Picture</label>
+                            <div class="form-file custom-file">
+                                <input type="file" name="image" class="form-file-input"  id="profilePic">
+                                <label for="customFile" class="form-file-label">
+                                    <span class="form-file-text custom-file-label">Choose Image...</span>
+                                    <span class="form-file-button">Browse</span>
+                                </label>
+                            </div>
+                        </div>
+                            <div class="mt-3">
+                                <h4 name="user[username]"><%=user.username%></h4>
+
+                                
+                               
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Full Name</h6>
+                            </div>
+                            <label for="firstName"></label>
+                            <input type="text" name="user[firstName]">
+                            <label for="lastName"></label>
+                            <input type="text" name="user[lastName]">
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-3">
+                                <h6 class="mb-0">Email</h6>
+                            </div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="text" class="form-control" name="user[email]" value="<%=user.email%>">
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-sm-3"></div>
+                            <div class="col-sm-9 text-secondary">
+                                <input type="button" class="btn btn-primary px-4" value="Save Profile">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    
+    
+    <button class="btn btn-success">Save Profile</button>
+</form>
+
+<a href="/users">Back to Community</a>

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "centered-sight-379907",
+  "private_key_id": "dbfccf8ebea0413d07b967bd4585cfc942ce112e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4aKfI+PgnUfDr\n3WyLJzuxEipCHt4SLMzjDew8PND5IU4rQlxTYacVgZj1MNp4LtcPlaYB7q880XDq\nw6+3jr6E7RYyca4yfYCds+41/I1321xCLA3L8Ov3SzCoq4kfVgAv1VfhvQHycRGP\nkmvaFF9fkgqjBmf4/ET6zJV1BVUC5rnI0VdIi9KH5YVdYFjVGCTu2iBWXM9/Dcnz\nbDWQY0pyyHmSY/n4tNNseIVkvz+1MUxbBEUgSyoxlxK4G3nd2Uj64F011leQ8Ryn\n6S4DrRSfrixwIgk2VUXLytwTtKpS5nu3qw6Dx77ykyWyiC4XGH7N+B2L6lT3YZUf\nOaLb5QgNAgMBAAECggEAN/sVTE5ATvdyErgiNlAPr95a0725Hn1ZKWhVmafArJBu\nwXUgv/M6HK4999j/yVI22TVNsvJ5YhYWmD4Vfrynm4S5o1CdWBh/TeCMZPkpHQSL\nik8DVTDrASRjPiDsvIWIAv1Z815EVAv9D7+cXBSpK0MTVZAhShWS/yvSBzc6KmnK\ncjVt4scaMaZbDygUBEzj4JHNp5UtovbShlNcmpIPddhcdWXIIWValCROffkk8vxN\nOZRs7u3zxA9MxIDi0QcDvQXX71fPMEUW8q41lg/GnfigwHpBUwnGqFXt62hUWflP\ngXKw68lD33jui1BJ/cp4AffA++GY8LiYq0rUKRnFhQKBgQDeY+sMfDi+lnuh5Uuf\nsG6ogqhRSA6PrkGx62qZ+yvYpsvNeiqbzsypc2z+MJcsgMHb5p5XUutLhsaxmiQD\nftgubTZW/cy36b6F7qDsna/5P1hkpPcxDX1pki771i/WjqI/HM5TuVSCv+PssU/r\ny5yvzgytwWkjiilrEfaPL4NOkwKBgQDUR0RnfXjorDEleRiBCSpQToauKVRlq415\nXAu1rdy9oGTeqs7lFzD0vwohWnsVqS3th2HeePBm7zrcUEU3hu871BFj0Km3BQLp\nY0yZ7HZ9n5NyARhefjfX39ZXwz+Gkf9TJukAJAtl+3jolFLkEJHuNfQfdq2MwaY9\nvZezcBXS3wKBgFfkK2gSzCZeuNviEEI7a3CDutvs23xjhSk4/jd+8fQ873z01FQh\npfcuXBwVvhljhbpP6bJfXgjKakqUvbj3755hoUE+KyNgaODrz4PUSlD6fQfBvsQP\nLcqEcLctDlkApBTHYK/sJf9KsVzBMvHg1bsRdydQsinOl9HuFoC+aWmrAoGBAKPp\np+M1mqAnHgfuesJgfmDmUc63sSiUkDhun8gYyUNPT7Q0Nm/lOXMy9LKOeE5ghUtN\nZ3/u6MrC3TNzdA8NTTtoZEkrvXDKGNZ4S5TrZw9XofW87MFCOwKhH5RC+pGBuKLP\nf8kRDBAiXtlQdrUOKnDDDo8hB5+RhDlWZYYz/VYHAoGBALY4KZuKfD7LK6utgtPN\nguZZAcOE3FG7hcs2GxUB7xRGSkFHwhJS+yXn6ztqDdkD1bmu0CKmPFa2mHnaRdHp\nqbLNu/A6IzRYnKcA9noRSHEtVGwRmACFF1LbckRvue7AjwgsNgvJw+w2TiYhp/c0\nSeMtg3TrV5PKXkTz3wo3iP3l\n-----END PRIVATE KEY-----\n",
+  "client_email": "hebrewtoenglish@centered-sight-379907.iam.gserviceaccount.com",
+  "client_id": "111689199756418199966",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hebrewtoenglish%40centered-sight-379907.iam.gserviceaccount.com"
+}

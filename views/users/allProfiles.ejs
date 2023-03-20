@@ -1,0 +1,36 @@
+<% layout('layouts/boilerplate')%>
+
+
+<!-- a page to display the community of users in this website who have signed up -->
+
+<!--  if(!currentUser.profileCreated){%>
+<a href="/users/new">Create Your profile</a>
+}  -->
+
+<h1>All User Profiles</h1>
+
+<div class="container-fluid">
+    <div class="row">
+        <% for (let user of users) {%>
+<div class="col-md-3 col-sm-6">
+    <a href="/users/<%=user._id%>" class="text-decoration-none">
+    
+    <div class="card mb-3">
+        <% if(user.image.url){ %>
+          <img src="<%=user.image.url%>"class="card-img">
+            <% } else { %>
+                <img src="https://res.cloudinary.com/deyqmo0j9/image/upload/v1679321752/hevanti/blank-profile-picture-gc9c2ca485_1280_ncr3lz.png">
+
+                <% } %>
+                <div class="card-body">
+                    <h5 class="card-title"><%=user.username%></h5>
+                    <p class="card-text"><%=user.bio%></p>
+                </div>
+
+    </div>
+    
+    </a>
+</div>
+            <% } %>
+    </div>
+</div>

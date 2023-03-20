@@ -1,0 +1,37 @@
+
+
+<% layout('layouts/boilerplate')%>
+    <div class="row">
+        <h1 class="text-center">New Post</h1>
+        <div class="col-md-6 offset-md-3">
+            
+            <form action="/posts" method="POST" novalidate class="validated-form" enctype="multipart/form-data">
+                
+               
+                <div class="mb-3">
+                    <label for="">Upload Images</label>
+                <div class="form-file custom-file">
+                    <input type="file" class="form-file-input" name="image" id="customFile" multiple>
+                    <label for="customFile" class="form-file-label">
+                        <span class="form-file-text custom-file-label">Choose Image(s)...</span>
+                        <span class="form-file-button">Browse</span>
+                    </label>
+                </div>
+            </div>
+                
+               
+                <div class="mb-3">
+                    <label class="form-label" for="caption">Caption</label>
+                    <textarea class="form-control" type="text" id="caption" name="post[caption]" required></textarea>
+                </div>
+                <div class="mb-3">
+                <button class="btn btn-success">Upload Post</button>
+            </div>
+            </form>
+            <a href="/posts">Back to Feed</a>
+        </div>
+    </div>
+
+
+    
+    
